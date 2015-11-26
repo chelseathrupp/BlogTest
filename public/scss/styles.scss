@@ -1,0 +1,59 @@
+$font-stack: Helvetica;
+$font-weight: Lighter;
+
+body{
+	background-image: url('scss/images/roadtrip.jpg');
+}
+
+#container{
+	font-family: $font-stack;
+	font-weight: lighter;
+	width: 55%;
+	margin: 300px auto;
+
+		#loginForm{
+				background-color: #f8f8f8;
+				width: 50%;
+				padding: 20px;
+				text-align: center;
+				margin: auto;
+
+				h2{
+					font-weight: lighter;
+				}
+			
+			.form{
+				text-align: left;
+				margin: 50px auto;
+				width: 90%;
+				
+				.loginLabel{
+				display: block;
+				margin: 10px 0 5px 0;
+					
+				}
+
+				.loginField{
+					width: 92%;
+					margin: 0 0 20px 0;
+					padding: 10px;
+
+				}
+
+				.primaryButton{
+					padding: 10px 50px;
+					border-radius: 0px;
+					background-color: #3b4cec;
+					border: none;
+					display: block;
+					margin: 30px auto;
+					color: white;
+					font-weight: normal;
+					font-size: 0.8em;
+				}
+			}
+			
+		
+		}
+}
+
